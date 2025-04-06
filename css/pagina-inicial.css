@@ -1,6 +1,7 @@
 body {
     background-color: lightpink;
     justify-items: center;
+    justify-content: center;
 }
 
 .caixa_branca {
@@ -119,7 +120,7 @@ p {
     /*firulinhas pra ficar mais bunitinho, aumentar o tamanho e a sombra tbm*/
 }
 
-#caxa-resenhas {
+#caxa_resenhas {
     display: flex;
     flex-wrap: wrap; /*isso é pra quebrar a linha pq a bomba do display flex não faz por padrão, se não as coisa passa da tela*/
     justify-content: center;
@@ -127,7 +128,10 @@ p {
     margin-top: 30px;
 }
 
-
+#divisoria {
+    width: 100%;
+    height: 1px;
+}
 
 #evangelion {
     background-image: url(../imagens/capas/evangelion.jpeg);
@@ -152,7 +156,7 @@ p {
 #delicios-in-dungeon img {
 
     position: relative; /*faz eu poder mexer a imagem livrimente*/
-    left: -75px; /*mexe a imagem pra esquerda pra encaixar com a capa (foi bem chato achar a posição certa)*/
+    left: -73px; /*mexe a imagem pra esquerda pra encaixar com a capa (foi bem chato achar a posição certa)*/
 
 /* se alguem conseguir faz o mesmo com chainsaw só tem qua achar o png ou tentar tiar aquele fundo num photoshop da vida */
     width: 333px;
