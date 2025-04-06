@@ -1,7 +1,6 @@
 body {
     background-color: lightpink;
     justify-items: center;
-    padding: 20px;
 }
 
 .caixa_branca {
@@ -11,24 +10,30 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* cabeçalho */
 
 header {
     height: 50px;
-    width: 1000px;
+    width: 1500px;
     line-height: 50px;
     align-items: center;
     display: flex;
+    margin-top: 20px;
 }
 
-.menu {
+.links-menu {
     text-decoration: none;
     color: black;
     margin-right: 20px;
     font-size: 25px;
 }
 
-.menu:hover {
+.links-menu:hover {
     color: rgb(36, 125, 155);
 }
 
@@ -41,7 +46,11 @@ nav {
 #kana {
     width: 50px;
     height: auto;
-    margin-left: 520px;
+    margin-left: 1037px;
+}
+
+#kana:hover {
+    transform: scale(1.1);
 }
 
 /* principal */
@@ -50,13 +59,135 @@ nav {
     margin-top: 30px;
     width: 1500px;
     height: 700px;
+    
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
 }
 
 #butao1 {
     background-color: aqua;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 3px;
+    width: 100px;
+    height: 50px;
+}
 
+#butao2 {
+    background-color: aqua;
+    border-radius: 7px;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+#butao2:hover {
+
+    background-color: rgb(0, 230, 255);
+    transform: scale(1.3);
 }
 
 #butao1:hover {
-    background-color: black;
+    background-color: rgb(0, 230, 255);
+    box-shadow: none;
 }
+
+/* resenhas */
+
+.resenhas {
+    width: 400px;
+    height: 700px;
+    margin: 0px 5px 10px 5px;
+
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.resenhas:hover {
+    transition: transform 0.3s; /*essa bomba faz a animação do transform ficar mais lenta, quer dizer ela ocorre pelo tempo que eu coloquei aqui*/
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    /*firulinhas pra ficar mais bunitinho, aumentar o tamanho e a sombra tbm*/
+}
+
+#caxa-resenhas {
+    display: flex;
+    flex-wrap: wrap; /*isso é pra quebrar a linha pq a bomba do display flex não faz por padrão, se não as coisa passa da tela*/
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+#evangelion {
+    background-image: url(../imagens/capas/evangelion.jpeg);
+}
+
+#chainsawman {
+    background-image: url(../imagens/capas/chain.jpeg);
+}
+
+#resenha-3 {
+    background-image: url(../imagens/capas/bsdd.jpeg);
+}
+
+#resenha-4 {
+    background-image: url(../imagens/capas/jjk.jpeg);
+}
+
+#delicios-in-dungeon {
+    background-image: url(../imagens/capas/dungeon-meshi.jpg);
+}
+
+#delicios-in-dungeon img {
+
+    position: relative; /*faz eu poder mexer a imagem livrimente*/
+    left: -75px; /*mexe a imagem pra esquerda pra encaixar com a capa (foi bem chato achar a posição certa)*/
+
+/* se alguem conseguir faz o mesmo com chainsaw só tem qua achar o png ou tentar tiar aquele fundo num photoshop da vida */
+    width: 333px;
+    opacity: 0; /*deixa invisivel*/
+}
+
+#delicios-in-dungeon:hover img {
+    opacity: 1; /*quando passa o mouse na div a img aparece. ps: sou muito genio*/
+}
+
+
+#resenha-5 {
+    background-image: url(../imagens/capas/);
+}
+
+#resenha-7 {
+    background-image: url(../imagens/capas/);
+}
+
+#resenha-8 {
+    background-image: url(../imagens/capas/);
+}
+
+/* rodape */
+
+#ficazultrem { /*se não por id nessa bomba ele pega as caracteristicas da classe caxa branca e talvez esse azul tenha ficado feio*/
+    background-color: rgb(170, 252, 252);
+    margin-top: 30px;
+    width: 1815px;
+    height: 300px;
+}
+
+
+/*PRO PROXIMO QUE ESTIVER PROGRMANDO (talvez eu mesmo): 
+    * Deixar a caixa principal mais bonita pq tá feia talvez por uma imagem lá
+    * pegar as fotos das proximas capas
+    * tentar adicionar o recurso que eu fiz em dungeon meshi
+    * fazer o rodapé com os devs */
