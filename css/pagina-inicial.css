@@ -98,7 +98,7 @@ p {
     height: 700px;
     position: absolute;
     top: 200px;
-    left: 1000px;
+    left: 1050px;
 
 }
 
@@ -138,12 +138,24 @@ p {
     background-image: url(../imagens/capas/chain.jpeg);
 }
 
+#chainsawman img {
+    position: relative;
+    left: -65px;
+    top: -24px;
+    width: 530px;
+    opacity: 0;
+}
+
+#chainsawman:hover img {
+    opacity: 1;
+}
+
 #resenha-3 {
     background-image: url(../imagens/capas/bsdd.jpeg);
 }
 
-#resenha-4 {
-    background-image: url(../imagens/capas/jjk.jpeg);
+#jujutsu {
+    background-image: url(../imagens/capas/jujutsu.jpeg);
 }
 
 #reigen {
