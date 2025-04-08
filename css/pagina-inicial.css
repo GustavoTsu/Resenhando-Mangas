@@ -26,13 +26,13 @@ a {
 }
 
 @-moz-document url-prefix() {
-#porfavor_centraliza {
-    width: 1600px;
-    height: 960px;
-    justify-items: center;
-    justify-content: center;
-    margin: 20px 0px 0px 200px;
-    /* centralizou aeeeeee */
+    #porfavor_centraliza {
+        width: 1600px;
+        height: 960px;
+        justify-items: center;
+        justify-content: center;
+        margin: 20px 0px 0px 200px;
+        /* centralizou aeeeeee */
 }
 }
 
@@ -67,7 +67,15 @@ nav {
 #kana {
     width: 50px;
     height: auto;
-    margin-left: 1037px;
+    margin-left: 1100px;
+}
+
+@-moz-document url-prefix() {
+    #kana {
+        width: 50px;
+        height: auto;
+        margin-left: 1037px;
+    }
 }
 
 #kana:hover {
@@ -230,7 +238,7 @@ p {
 
 /* rodape */
 
-#ficazultrem { /*se não por id nessa bomba ele pega as caracteristicas da classe caxa branca e talvez esse azul tenha ficado feio*/
+#rodape { /*se não por id nessa bomba ele pega as caracteristicas da classe caxa branca e talvez esse azul tenha ficado feio*/
     background-color: white;
     margin-top: 30px;
     width: 1815px;
