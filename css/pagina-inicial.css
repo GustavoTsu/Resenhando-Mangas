@@ -170,8 +170,16 @@ p {
     opacity: 1;
 }
 
-#resenha-3 {
+#bungou {
     background-image: url(../imagens/capas/bsdd.jpeg);
+}
+
+#sousou {
+    background-image: url(../imagens/capas/frieren.jpg);
+}
+
+#uzumaki {
+    background-image: url(../imagens/capas/uzumaki.jpeg);
 }
 
 #jujutsu {
