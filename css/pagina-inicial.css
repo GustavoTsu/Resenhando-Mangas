@@ -16,6 +16,26 @@ a {
     color: black;
 }
 
+#porfavor_centraliza {
+    width: 100%;
+    height: 960px;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    /* centralizou aeeeeee */
+}
+
+@-moz-document url-prefix() {
+#porfavor_centraliza {
+    width: 1600px;
+    height: 960px;
+    justify-items: center;
+    justify-content: center;
+    margin: 20px 0px 0px 200px;
+    /* centralizou aeeeeee */
+}
+}
+
 /* cabeçalho */
 
 header {
@@ -24,7 +44,7 @@ header {
     line-height: 50px;
     align-items: center;
     display: flex;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .links-menu {
