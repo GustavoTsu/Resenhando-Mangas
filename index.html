@@ -4,100 +4,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resenhas de Mangás</title>
+    <link rel="shortcut icon" href="imagens/favicon/manga2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/pagina-inicial.css">
 </head>
 
 <body>
-    <div id="porfavor_centraliza">
     <header class="caixa_branca">
         <nav>
-            <span id="menu">
-                <a href="#divisoria" class="links-menu">Resenhas</a>
-                <a href="#ficazultrem" class="links-menu">Desenvolvedores</a>
-            </span>
-            <img id="kana" src="imagens/inicio/imagen-menu.png" alt="menu">
+            <a href="#divisoria" class="links-menu">Resenhas</a>
+            <a href="#ficazultrem" class="links-menu">Desenvolvedores</a>
         </nav>
-
+        <img id="kana" src="imagens/inicio/imagen-menu.png" alt="menu">
     </header>
 
     <section id="principal" class="caixa_branca">
         <h1>Resenhando Mangás</h1>
-        <p>Confira nossas resenhas!  </p>
-        <a href="#divisoria"><button id="butao1">Começar a ler</button></a>
-        <div>
-            <img src="imagens/inicio/zero2.png" alt="zero two" id="zero-two">
-        </div>
+        <p>Confira nossas resenhas! </p>
+        <a href="#divisoria"><button id="butao">Começar a ler</button></a>
+        <img src="imagens/inicio/zero2.png" alt="zero two" id="zero-two">
     </section>
-    </div>
 
-    <div id="divisoria"></div>  <!-- é só pra dividir mas pricipalmente pq quando ia direto pra #evangelion ficava feio assim fica uma folguinha em cima -->
+    <div id="divisoria"></div>
+    <!-- é só pra dividir mas pricipalmente pq quando ia direto pra #evangelion ficava feio assim fica uma folguinha em cima -->
 
     <div id="caxa_resenhas">
-        <a href="resenhas/pedro/evangelions.html">
-            <div id="evangelion" class="resenhas caixa_branca"></div> 
-        </a>
-
-        <a href="resenhas/pedro/chainsaw.html">
-            <div id="chainsawman" class="resenhas caixa_branca">
-                <img src="imagens/capas/denji.png" alt=""></div>
-        </a>
-
-        <a href="resenhas/sarah/bsd.html">
-        <div id="bungou" class="resenhas caixa_branca"></div>
-        </a>
-
-        <a href="resenhas/sarah/jjk.html">
-        <div id="jujutsu" class="resenhas caixa_branca"></div>
-        </a>
-
         <a href="resenhas/arthur/frieren.html">
-        <div id="sousou" class="resenhas caixa_branca"></div>
+            <div id="sousou" class="resenhas caixa_branca"></div>
         </a>
 
         <a href="resenhas/arthur/uzumaki.html">
-        <div id="uzumaki" class="resenhas caixa_branca"></div>
-        </a>
-
-        <a href="resenhas/tsu/rengen.html">
-        <div id="reigen" class="resenhas caixa_branca"><img  src="imagens/capas/titulo-reigen.png"></div>
+            <div id="uzumaki" class="resenhas caixa_branca"></div>
         </a>
 
         <a href="resenhas/tsu/dungeon.html">
-        <div id="delicios-in-dungeon" class="resenhas caixa_branca"><img  src="imagens/capas/laios.png"></div>
+            <div id="delicios-in-dungeon" class="resenhas caixa_branca"></div>
         </a>
 
-    </div>
-      
-    <footer id="rodape" class="caixa_branca">
-        <h2>Desenvolvedores</h2>
-        <div class="dev-geral">
+        <a href="resenhas/tsu/rengen.html">
+            <div id="reigen" class="resenhas caixa_branca"></div>
+        </a>
 
-            <div class="dev">
-                <img class="dev-img" src="imagens/devs/rei.jpeg">
-                <p>Sun (Pedro Henrique)</p>
-            </div>
+        <a href="resenhas/pedro/chainsaw.html">
+            <div id="chainsawman" class="resenhas caixa_branca"></div>
+        </a>
 
-            <div class="dev">
-                <img class="dev-img" src="imagens/devs/oioi.jpg">
-                <p>Kowa (Sarah)</p>
-            </div>
+        <a href="resenhas/pedro/evangelions.html">
+            <div id="evangelion" class="resenhas caixa_branca"></div>
+        </a>
 
-            <div class="dev">
-                <img class="dev-img" src= "imagens/devs/tsu.jpeg">
-                <p>Tsu (Gustavo)</p>
+        <a href="resenhas/sarah/bsd.html">
+            <div id="bungou" class="resenhas caixa_branca"></div>
+        </a>
 
-            </div>
-            <div class="dev">
-                <img class="dev-img" src="imagens/devs/Griffith.jpeg">
-                <p>Cereza (Arthur)</p>
-            </div>
-        </div>
-    </footer>
-<!-- os divs basicamente separam o conteudo pro css, n mexe pq funcionou e eu nem sei como -->
+        <a href="resenhas/sarah/jjk.html">
+            <div id="jujutsu" class="resenhas caixa_branca"></div>
+        </a>
+    
 
-<!-- funcionou??? tu quebrou o site -->
+        <footer id="rodape" class="caixa_branca">
+            <h2>Desenvolvedores</h2>
+            <div class="dev-geral">
+
+                <div class="dev">
+                    <img class="dev-img" src="imagens/devs/rei.jpeg">
+                    <p>Pedro Henrique</p>
+                </div>
+
+                <div class="dev">
+                    <img class="dev-img" src="imagens/devs/oioi.jpg">
+                    <p>Sarah</p>
+                </div>
+
+                <div class="dev">
+                    <img class="dev-img" src="imagens/devs/tsu.jpeg">
+                    <p>Gustavo</p>
+
+                </div>
+                <div class="dev">
+                    <img class="dev-img" src="imagens/devs/Griffith.jpeg">
+                    <p>Arthur</p>
+                </div>
+        </footer>
+        <!-- os divs basicamente separam o conteudo pro css, n mexe pq funcionou e eu nem sei como -->
+
+        <!-- funcionou??? tu quebrou o site -->
 </body>
 
-</html> 
+</html>
