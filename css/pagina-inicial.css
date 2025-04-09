@@ -249,6 +249,27 @@ p {
     height: 300px;
 }
 
+.dev {
+    display: flex;
+    flex-wrap: wrap; /*isso é pra quebrar a linha pq a bomba do display flex não faz por padrão, se não as coisa passa da tela*/
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.dev-img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.dev-img:hover {
+    transform: scale(1.1);
+}
+
+/* consertar essa bomba depois /*
+
 
 /*PRO PROXIMO QUE ESTIVER PROGRMANDO (talvez eu mesmo): 
     * Deixar a caixa principal mais bonita pq tá feia talvez por uma imagem lá
