@@ -10,6 +10,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 3px;
     max-width: 1000px;
     margin: auto; /* margin:auto = centralizar na horizontal */
+    margin-top: 30px;
 }
 
 .resenha-manga{
@@ -42,6 +43,7 @@ body {
     max-width: 1000px;
     margin: auto;
     margin-top: 20px;
+    text-align: justify;
 }
 .texto-resenha{
     color: black;
@@ -75,8 +77,10 @@ body {
     font-weight: bold;
 }
 
-    /* cara isso deu muito trabalho e eu sequer lembro os comandos que usei para fazer essa coisa */
 
-    /* ficou horroroso o butão na cor do plano de fundo. parece que tá com erro no código */
+p {
+    margin: 10px 0px;
+}
+    /* cara isso deu muito trabalho e eu sequer lembro os comandos que usei para fazer essa coisa */
     /* pior que tu realmente errou o codigo KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK */
     /* to achando esse site muito rosa. o Lucas vê rosa? */
